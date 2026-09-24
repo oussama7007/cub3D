@@ -21,6 +21,7 @@
 # include "stdbool.h"
 # include "math.h"
 # include "sys/time.h"
+#include <stdint.h>
 
 # define BUFFER_SIZE 42
 # define MINIMAP_RADIUS 100

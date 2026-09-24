@@ -19,6 +19,7 @@
 # include "fcntl.h"
 # include "stdlib.h"
 # include "math.h"
+#include <stdint.h>
 
 # define BUFFER_SIZE 42
 # define HEIGHT 720

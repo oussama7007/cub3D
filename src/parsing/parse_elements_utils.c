@@ -37,7 +37,7 @@ int	is_color_integer(char *color, int *rgb_int, t_gc *gc)
 
 	i = 0;
 	(void)gc;
-	str_without_new_line = NULL;
+	(void)str_without_new_line;
 	while (i < ft_strlen(color))
 	{
 		if (!(color[i] >= '0' && color[i] <= '9')
